@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fridge</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <div class="my-buttons">
+    <a class="btn home_btn" href="http://localhost:3000">ДОМОЙ</a>
+    {{#if userId}}
+    <a class="btn logout_btn" href="http://localhost:3000/logout">ВЫЙТИ</a>
+    {{else}}
+    <a class="btn signup_btn" href="http://localhost:3000/signup">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+    <a class="btn signin_btn" href="http://localhost:3000/signin">ВОЙТИ</a>
+    {{/if}}
+  </div>
+
+  {{{ body }}}
+</body>
+</html>

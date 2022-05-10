@@ -1,0 +1,16 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1652104477945-c8bb3b93a9e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-buttons {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.btn {
+  color: aquamarine;
+  text-decoration: none;
+  margin-right: 30px;
+}
